@@ -42,7 +42,10 @@ export const useTagsViewStore = defineStore('tagsView', () => {
   }
 
   return { visitedViews, cachedViews, addView, delView, updateVisitedView }
-})
+},
+  {
+    persist: true,
+  })
 
 export function useTagsViewStoreHook() {
   return useTagsViewStore(store)
