@@ -19,7 +19,6 @@ defineProps(['list', 'activeIndex'])
 const emit = defineEmits(['selectDepart'])
 
 const doSelect =(data) => {
-    console.log(data)
     emit('selectDepart', data.index)
 }
 </script>

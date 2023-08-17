@@ -204,7 +204,6 @@ const doCloseDrawer = () => {
 }
 
 const doSumbit = (info) => {
-  console.log(info, 'params')
   const body = {
     code: info.code,
     name: info.name,

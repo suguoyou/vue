@@ -48,7 +48,6 @@ const doCancel = () => {
 
 
 const onSubmit = () => {
-    console.log('提交', form.value)
     emit('submit', form.value)
 }
 </script>
